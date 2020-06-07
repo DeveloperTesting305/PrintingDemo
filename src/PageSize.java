@@ -1,6 +1,7 @@
 public interface PageSize {
 
     Double ppi = Double.valueOf(72);
+    ///**** UPDATED FROM OTHER SIDE
 
     Double width = Double.valueOf(8.268) * ppi;
     Double height = Double.valueOf(11.693) * ppi;
