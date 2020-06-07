@@ -12,6 +12,7 @@ public class PrintingDemoMain {
         PrinterWork work = new PrinterWork(data);
 
         book.append(work, pageFormat);
+        System.out.println();
 
         ///*** GO FOR PRINTING JOB
         PrinterJob printerJob = PrinterJob.getPrinterJob();
